@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Studio R7 brand tokens. Text colours are checked at 6:1 or better on their surface. */
+@theme {
+  --color-night: #0b1220;
+  --color-night-raised: #131c2e;
+  --color-night-line: #26324a;
+  --color-primary: #3d7dff;
+  --color-primary-ink: #1d4fd8;
+  --color-accent: #00d4a8;
+  --color-accent-ink: #00705a;
+  --color-warm: #ffb020;
+  --color-ink: #1a2233;
+  --color-muted: #47546b;
+  --color-line: #dce3ee;
+  --color-surface: #f5f8fc;
+  --color-band-blue: #eef4ff;
+  --color-band-mint: #e8faf5;
+  --color-band-warm: #fff7e8;
+  --color-cream: #e6ecf7;
+  --font-sans: var(--font-jakarta), "Noto Sans Thai", system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Tall screenshots scroll inside their frame. */
+.frame-scroll {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #b8c4d8 transparent;
 }

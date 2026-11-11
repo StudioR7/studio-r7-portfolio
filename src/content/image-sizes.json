@@ -1,0 +1,630 @@
+{
+  "studio-r7/site-home-en": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/site-home-th": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/site-pricing-en": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/site-home-phone-en": {
+    "width": 600,
+    "height": 1200
+  },
+  "studio-r7/site-services-en": {
+    "width": 1200,
+    "height": 750
+  },
+  "studio-r7/site-contact-phone-th": {
+    "width": 600,
+    "height": 1200
+  },
+  "studio-r7/app-invoice-maker": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/app-namecard-maker": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/app-invoice-doc-th": {
+    "width": 600,
+    "height": 500
+  },
+  "studio-r7/app-invoice-doc-en": {
+    "width": 600,
+    "height": 500
+  },
+  "studio-r7/app-namecard-front": {
+    "width": 600,
+    "height": 366
+  },
+  "studio-r7/app-namecard-back": {
+    "width": 600,
+    "height": 366
+  },
+  "studio-r7/section-brand-board": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/section-line-chat": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/section-stack-assembly": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/section-namecard-gallery": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/section-telegram-demo": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/section-whatsapp-phone": {
+    "width": 390,
+    "height": 900
+  },
+  "studio-r7/section-portal-demo": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/engine-map": {
+    "width": 1440,
+    "height": 2400
+  },
+  "studio-r7/engine-map-selected": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/engine-map-phone": {
+    "width": 780,
+    "height": 3600
+  },
+  "studio-r7/portal-home": {
+    "width": 1440,
+    "height": 1000
+  },
+  "studio-r7/portal-home-phone": {
+    "width": 780,
+    "height": 2914
+  },
+  "studio-r7/portal-timeline": {
+    "width": 1440,
+    "height": 1661
+  },
+  "studio-r7/portal-timeline-phone-th": {
+    "width": 780,
+    "height": 5370
+  },
+  "studio-r7/portal-request": {
+    "width": 1440,
+    "height": 1404
+  },
+  "studio-r7/portal-request-phone-th": {
+    "width": 780,
+    "height": 3260
+  },
+  "studio-r7/portal-upload": {
+    "width": 1440,
+    "height": 1400
+  },
+  "studio-r7/portal-staff-delivery": {
+    "width": 1440,
+    "height": 1898
+  },
+  "studio-r7/portal-staff-all": {
+    "width": 1440,
+    "height": 1082
+  },
+  "studio-r7/portal-mock-approvals": {
+    "width": 1440,
+    "height": 993
+  },
+  "studio-r7/portal-mock-email": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/brand-sheet": {
+    "width": 1600,
+    "height": 1689
+  },
+  "studio-r7/brand-facebook-cover": {
+    "width": 1600,
+    "height": 609
+  },
+  "studio-r7/brand-linkedin-cover": {
+    "width": 1584,
+    "height": 396
+  },
+  "studio-r7/brand-logo": {
+    "width": 512,
+    "height": 512
+  },
+  "studio-r7/brand-line-rich-menu": {
+    "width": 1600,
+    "height": 540
+  },
+  "studio-r7/social-facebook-sheet": {
+    "width": 1600,
+    "height": 2157
+  },
+  "studio-r7/social-facebook-cover": {
+    "width": 1600,
+    "height": 901
+  },
+  "studio-r7/social-post-manifesto": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-post-how-we-decide": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-post-before-after": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-post-carousel": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-post-pricing-faq": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-linkedin-sheet": {
+    "width": 1600,
+    "height": 822
+  },
+  "studio-r7/social-linkedin-belief": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-linkedin-keep-integrate-build": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-linkedin-how-we-build": {
+    "width": 1080,
+    "height": 1350
+  },
+  "studio-r7/social-line-richmenu-en": {
+    "width": 1600,
+    "height": 1079
+  },
+  "studio-r7/social-line-richmenu-th": {
+    "width": 1600,
+    "height": 1079
+  },
+  "studio-r7/social-wa-01": {
+    "width": 1024,
+    "height": 1024
+  },
+  "studio-r7/social-wa-02": {
+    "width": 1024,
+    "height": 1024
+  },
+  "studio-r7/social-wa-03": {
+    "width": 1024,
+    "height": 1024
+  },
+  "studio-r7/social-wa-04": {
+    "width": 1024,
+    "height": 1024
+  },
+  "studio-r7/social-wa-05": {
+    "width": 1024,
+    "height": 1024
+  },
+  "studio-r7/social-wa-06": {
+    "width": 1024,
+    "height": 1024
+  },
+  "dee-wan-nee/site-home-en": {
+    "width": 1440,
+    "height": 900
+  },
+  "dee-wan-nee/site-home-th": {
+    "width": 1440,
+    "height": 900
+  },
+  "dee-wan-nee/cover-en": {
+    "width": 1200,
+    "height": 630
+  },
+  "dee-wan-nee/brand-lineup": {
+    "width": 1254,
+    "height": 1254
+  },
+  "dee-wan-nee/brand-hero-scene": {
+    "width": 1254,
+    "height": 535
+  },
+  "dee-wan-nee/cast-moo": {
+    "width": 235,
+    "height": 255
+  },
+  "dee-wan-nee/cast-kai": {
+    "width": 220,
+    "height": 245
+  },
+  "dee-wan-nee/cast-pa": {
+    "width": 192,
+    "height": 245
+  },
+  "dee-wan-nee/cast-pet": {
+    "width": 173,
+    "height": 245
+  },
+  "dee-wan-nee/cast-chilly": {
+    "width": 155,
+    "height": 235
+  },
+  "dee-wan-nee/cast-jai": {
+    "width": 224,
+    "height": 235
+  },
+  "dee-wan-nee/share-card-en": {
+    "width": 1200,
+    "height": 630
+  },
+  "dee-wan-nee/share-card-th": {
+    "width": 1200,
+    "height": 630
+  },
+  "dee-wan-nee/share-card-zh": {
+    "width": 1200,
+    "height": 630
+  },
+  "dee-wan-nee/line-rich-menu": {
+    "width": 1600,
+    "height": 1079
+  },
+  "dee-wan-nee/line-welcome-moo": {
+    "width": 1510,
+    "height": 1000
+  },
+  "dee-wan-nee/line-welcome-kai": {
+    "width": 1510,
+    "height": 1000
+  },
+  "dee-wan-nee/line-welcome-pa": {
+    "width": 1510,
+    "height": 1000
+  },
+  "dee-wan-nee/line-welcome-jai": {
+    "width": 1510,
+    "height": 1000
+  },
+  "paitor/screen-landing": {
+    "width": 1280,
+    "height": 1938
+  },
+  "paitor/screen-browse": {
+    "width": 1280,
+    "height": 1526
+  },
+  "paitor/screen-listing-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/flow-1-car": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/flow-2-photos": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/flow-3-condition": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/flow-4-price": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/flow-5-preview": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/flow-6-share": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/flow-7-sold": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/screen-landing-dark": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/brand-logo-guide": {
+    "width": 1520,
+    "height": 1812
+  },
+  "paitor/brand-art-direction": {
+    "width": 1520,
+    "height": 1289
+  },
+  "paitor/brand-component-library": {
+    "width": 1280,
+    "height": 5966
+  },
+  "paitor/share-og": {
+    "width": 1200,
+    "height": 630
+  },
+  "paitor/share-portrait": {
+    "width": 1080,
+    "height": 1350
+  },
+  "paitor/share-story": {
+    "width": 1080,
+    "height": 1920
+  },
+  "paitor/line-rich-menu": {
+    "width": 1040,
+    "height": 1040
+  },
+  "paitor/cast-lineup": {
+    "width": 1280,
+    "height": 1630
+  },
+  "paitor/cast-world-scene": {
+    "width": 1600,
+    "height": 900
+  },
+  "paitor/cast-comparison": {
+    "width": 1480,
+    "height": 2550
+  },
+  "paitor/story-storyboard": {
+    "width": 1600,
+    "height": 1437
+  },
+  "paitor/pro-today": {
+    "width": 1440,
+    "height": 1911
+  },
+  "paitor/pro-stock": {
+    "width": 1440,
+    "height": 1000
+  },
+  "paitor/pro-editor": {
+    "width": 1440,
+    "height": 1000
+  },
+  "paitor/pro-import": {
+    "width": 1440,
+    "height": 1502
+  },
+  "paitor/pro-connections": {
+    "width": 1440,
+    "height": 1870
+  },
+  "paitor/pro-chats": {
+    "width": 1440,
+    "height": 1000
+  },
+  "paitor/pro-banner-design": {
+    "width": 1440,
+    "height": 2136
+  },
+  "paitor/pro-boost-bulk": {
+    "width": 1440,
+    "height": 1754
+  },
+  "paitor/pro-phone-today": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/pro-phone-stock": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/pro-line-car-card": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/pro-line-carousel": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/pro-line-weekly": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/live-home": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-home-full": {
+    "width": 1440,
+    "height": 9000
+  },
+  "studio-r7/live-home-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/live-home-th-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/live-pricing": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-pricing-full": {
+    "width": 1440,
+    "height": 8696
+  },
+  "studio-r7/live-pricing-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/live-platform": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-agents": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-agents-full": {
+    "width": 1440,
+    "height": 6944
+  },
+  "studio-r7/live-demos": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-demos-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/live-invoice": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-namecard": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-marketplace": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/live-work": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/intake-1": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/intake-1-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/intake-2": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/intake-2-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/intake-3": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/intake-3-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "studio-r7/intake-4": {
+    "width": 1440,
+    "height": 900
+  },
+  "studio-r7/intake-4-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/home": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/home-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/leadiq": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/leadiq-full": {
+    "width": 1440,
+    "height": 6780
+  },
+  "reviq/pipeline": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/pipeline-full": {
+    "width": 1440,
+    "height": 7576
+  },
+  "reviq/brand-kit": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/brand-kit-full": {
+    "width": 1440,
+    "height": 9000
+  },
+  "reviq/logo-lockup": {
+    "width": 1410,
+    "height": 390
+  },
+  "reviq/logo-tile": {
+    "width": 960,
+    "height": 960
+  },
+  "reviq/logo-construction": {
+    "width": 1560,
+    "height": 1560
+  },
+  "dee-wan-nee/live-home": {
+    "width": 1440,
+    "height": 900
+  },
+  "dee-wan-nee/live-home-full": {
+    "width": 1440,
+    "height": 8085
+  },
+  "dee-wan-nee/live-home-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "dee-wan-nee/live-restaurant": {
+    "width": 1440,
+    "height": 900
+  },
+  "dee-wan-nee/live-restaurant-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "dee-wan-nee/live-restaurant-phone-full": {
+    "width": 780,
+    "height": 7774
+  },
+  "dee-wan-nee/live-palate": {
+    "width": 1440,
+    "height": 900
+  },
+  "dee-wan-nee/live-palate-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "dee-wan-nee/live-partners": {
+    "width": 1440,
+    "height": 900
+  },
+  "paitor/live-home": {
+    "width": 1440,
+    "height": 900
+  },
+  "paitor/live-home-phone": {
+    "width": 780,
+    "height": 1688
+  }
+}
