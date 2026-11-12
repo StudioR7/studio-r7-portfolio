@@ -27,6 +27,25 @@ export type Block =
       columns: 2 | 3 | 4;
       items: { image: string; caption: string }[];
     }
+  | {
+      /** A drawn process: who does what, in order. */
+      type: "process";
+      title: string;
+      intro?: string;
+      /** The people or systems involved; each step names one by index. */
+      actors: string[];
+      steps: { actor: number; title: string; body: string }[];
+    }
+  | {
+      /** A simplified data model: the main records and how they connect. */
+      type: "schema";
+      title: string;
+      intro?: string;
+      note?: string;
+      columns: number;
+      entities: { id: string; name: string; note: string; col: number; row: number }[];
+      links: { from: string; to: string; label?: string }[];
+    }
   | { type: "list"; title: string; intro?: string; items: { title: string; body: string }[] }
   | { type: "papers"; title: string; intro: string; project: string };
 

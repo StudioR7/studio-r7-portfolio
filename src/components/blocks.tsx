@@ -1,5 +1,6 @@
 import { papers } from "@/content/papers";
 import type { Block, Paper } from "@/content/types";
+import { ProcessDiagram, SchemaDiagram } from "./diagrams";
 import { Shot } from "./shot";
 
 const COLUMNS = {
@@ -88,6 +89,25 @@ function BlockView({ block }: { block: Block }) {
               </li>
             ))}
           </ul>
+        </div>
+      );
+
+    case "process":
+      return (
+        <div>
+          <h3 className="text-2xl font-bold tracking-tight">{block.title}</h3>
+          {block.intro && <p className="mt-3 max-w-2xl text-muted">{block.intro}</p>}
+          <ProcessDiagram actors={block.actors} steps={block.steps} />
+        </div>
+      );
+
+    case "schema":
+      return (
+        <div>
+          <h3 className="text-2xl font-bold tracking-tight">{block.title}</h3>
+          {block.intro && <p className="mt-3 max-w-2xl text-muted">{block.intro}</p>}
+          <SchemaDiagram title={block.title} columns={block.columns} entities={block.entities} links={block.links} />
+          {block.note && <p className="mt-3 max-w-2xl text-[15px] text-muted">{block.note}</p>}
         </div>
       );
 
