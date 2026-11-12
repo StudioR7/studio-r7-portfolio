@@ -930,5 +930,61 @@
   "studio-r7/portal-mock-team": {
     "width": 1440,
     "height": 900
+  },
+  "imomi/composition": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/arrangements": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/colours": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/omi-colours": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/type": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/type-scale": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/placement": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/mug": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/coasters": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/illustration": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/cover": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/concept": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/omi": {
+    "width": 1400,
+    "height": 787
+  },
+  "imomi/logo": {
+    "width": 1400,
+    "height": 787
   }
 }

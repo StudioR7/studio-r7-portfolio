@@ -230,6 +230,61 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    id: "imomi",
+    label: "From the archive",
+    title: "imomi, 2019: a home with a voice.",
+    intro:
+      "An earlier venture by the studio's founder: a chat companion for finding a home. The founder directed the identity; the mark joins a house and a speech bubble, and the bubble became Omi, a mascot with moods.",
+    groups: [
+      {
+        title: "The mark",
+        body: "A reply bubble that doubles as the door of the home.",
+        frame: "plain",
+        columns: TWO,
+        items: [
+          { image: "imomi/cover", caption: "The brand guideline, 2019" },
+          { image: "imomi/concept", caption: "The concept: home plus chat" },
+          { image: "imomi/logo", caption: "The logo and wordmark" },
+          { image: "imomi/composition", caption: "Construction and spacing" },
+        ],
+      },
+      {
+        title: "Omi, the mascot",
+        body: "Friendly, helpful, playful and competent, with a face for each mood.",
+        frame: "plain",
+        columns: TWO,
+        items: [
+          { image: "imomi/omi", caption: "Hello, Omi" },
+          { image: "imomi/omi-colours", caption: "Omi's colours" },
+        ],
+      },
+      {
+        title: "The system",
+        body: "",
+        frame: "plain",
+        columns: THREE,
+        items: [
+          { image: "imomi/colours", caption: "Colour" },
+          { image: "imomi/type", caption: "Typeface" },
+          { image: "imomi/type-scale", caption: "Type scale" },
+          { image: "imomi/arrangements", caption: "Arrangements" },
+          { image: "imomi/placement", caption: "Backgrounds: do and do not" },
+          { image: "imomi/illustration", caption: "Illustration style" },
+        ],
+      },
+      {
+        title: "In the hand",
+        body: "",
+        frame: "plain",
+        columns: TWO,
+        items: [
+          { image: "imomi/mug", caption: "Mug" },
+          { image: "imomi/coasters", caption: "Coasters" },
+        ],
+      },
+    ],
+  },
 ];
 
 export default function DesignPage() {
@@ -242,7 +297,7 @@ export default function DesignPage() {
             Brands, characters and chat channels.
           </h1>
           <p className="mt-5 max-w-2xl text-xl leading-relaxed text-ink">
-            The design work from all four products in one place. For the screens and flows, open a project story.
+            The design work from all four products in one place, plus one from the archive. For the screens and flows, open a project story.
           </p>
           <ol className="mt-8 flex flex-wrap gap-2">
             {SECTIONS.map((section, index) => (
