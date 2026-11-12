@@ -1,6 +1,10 @@
 import type { App } from "./types";
 
 const R7 = { label: "Part of the Studio R7 story", href: "/work/studio-r7/" };
+const REVIQ = { label: "Part of the RevIQ story", href: "/work/reviq/" };
+const REVIQ_STACK = ["Next.js 16", "React 19", "TypeScript", "Tailwind 4", "Firebase and Firestore", "pdf-lib"];
+const DEMO_NOTE =
+  "RevIQ runs behind a login with real business data, so these screens come from a copy of the app running on a local test database. Baimai Studio and every customer, deal and invoice shown are made up.";
 const SITE_STACK = ["Next.js 16", "React 19", "TypeScript", "Tailwind 4"];
 
 export const apps: App[] = [
@@ -647,5 +651,288 @@ export const apps: App[] = [
       },
     ],
     stack: SITE_STACK,
+  },
+  {
+    slug: "reviq-money",
+    name: "RevIQ Money",
+    kind: "SaaS module · invoicing and books",
+    tagline: "Quote, invoice, get paid, and know what is still owed.",
+    summary:
+      "The money side of the RevIQ business suite: bilingual Thai tax documents with withholding tax worked out, a payment ledger on every invoice, and a dashboard that answers one question first: what is owed to you.",
+    status: "Live behind login · shown from a local demo",
+    parent: REVIQ,
+    cover: "reviq/app-money",
+    coverFrame: "browser",
+    band: "bg-surface",
+    facts: [
+      { value: "10", label: "document kinds, from quote to withholding-tax certificate" },
+      { value: "2", label: "languages on every document, Thai and English together" },
+      { value: "7", label: "figures on the dashboard, including VAT and withholding tax" },
+      { value: "1", label: "payment ledger per invoice; status is never set by hand" },
+    ],
+    honest: DEMO_NOTE,
+    chapters: [
+      {
+        id: "dashboard",
+        title: "The books at a glance",
+        intro: "A small business owner opens this to learn two things: what came in, and who still owes.",
+        blocks: [
+          {
+            type: "shot",
+            image: "reviq/app-money-full",
+            frame: "browser",
+            title: "The dashboard",
+            body: [
+              "Revenue, expenses, gross profit and outstanding on the first row. VAT collected, VAT paid and withholding tax on the second, because in Thailand those are the numbers an accountant asks for.",
+              "Below, the year month by month. Scroll inside the frame to see the trend.",
+            ],
+          },
+          {
+            type: "gallery",
+            frame: "browser",
+            columns: 2,
+            items: [
+              { image: "reviq/app-revenue", caption: "Revenue: every quote and invoice with its real status" },
+              { image: "reviq/app-expenses", caption: "Expenses: by transaction or by type" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "documents",
+        title: "A document from start to paid",
+        intro: "The customer comes from the contact list, never from free text, so the legal name, tax ID and address on a document are always the recorded ones.",
+        blocks: [
+          {
+            type: "process",
+            title: "One invoice, drawn",
+            actors: ["Business", "RevIQ", "Customer"],
+            steps: [
+              { actor: 0, title: "Write the quote", body: "Pick a contact, add lines." },
+              { actor: 1, title: "Check the details", body: "Refuses a tax document with missing buyer details." },
+              { actor: 2, title: "Accept", body: "The quote converts to an invoice." },
+              { actor: 1, title: "Number it", body: "A sequence without gaps." },
+              { actor: 2, title: "Pay", body: "By PromptPay, transfer or cash." },
+              { actor: 0, title: "Record the payment", body: "Part payments are just the first entry." },
+              { actor: 1, title: "Update the status", body: "Derived from the ledger." },
+              { actor: 0, title: "Issue the receipt", body: "One step from the paid invoice." },
+            ],
+          },
+          {
+            type: "shot",
+            image: "reviq/app-invoice-new",
+            frame: "browser",
+            title: "The form",
+            body: [
+              "Dates, payment terms, the recipient, then lines with VAT and withholding tax per line. Every field has one sentence under it saying why it is asked.",
+            ],
+          },
+          {
+            type: "gallery",
+            title: "The documents themselves",
+            intro: "Thai and English on the same page, the amount in words in both languages, and payments received listed under the total.",
+            frame: "plain",
+            columns: 2,
+            items: [
+              { image: "reviq/paper-invoice", caption: "An invoice, partly paid" },
+              { image: "reviq/paper-quote", caption: "A quote awaiting a reply" },
+            ],
+          },
+          {
+            type: "shot",
+            image: "reviq/app-doc-3",
+            frame: "browser",
+            title: "The document page",
+            body: [
+              "A suggested next step sits on top: record a payment, issue a receipt, convert a quote. Below it, the link to a deal, notes, and a pay link the customer can open to download the document and upload their transfer slip.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "phone",
+        title: "On a phone",
+        intro: "The same books, one column.",
+        blocks: [
+          {
+            type: "gallery",
+            frame: "phone",
+            columns: 3,
+            items: [
+              { image: "reviq/app-home-phone", caption: "Home: owed to you" },
+              { image: "reviq/app-money-phone", caption: "Dashboard" },
+              { image: "reviq/app-revenue-phone", caption: "Revenue" },
+            ],
+          },
+        ],
+      },
+    ],
+    stack: REVIQ_STACK,
+  },
+  {
+    slug: "reviq-contacts",
+    name: "RevIQ Contacts",
+    kind: "SaaS module · CRM records",
+    tagline: "Every person and company, with everything that happened.",
+    summary:
+      "The contact hub of RevIQ. A person belongs to a company, and a record page shows their deals, documents, tasks and payments on one timeline, with a suggested next step on top.",
+    status: "Live behind login · shown from a local demo",
+    parent: REVIQ,
+    cover: "reviq/app-company",
+    coverFrame: "browser",
+    band: "bg-band-blue",
+    facts: [
+      { value: "2", label: "record types, person and company, linked to each other" },
+      { value: "115", label: "fields defined in one blueprint" },
+      { value: "18", label: "sections those fields are grouped in" },
+      { value: "1", label: "timeline per record: notes, calls, tasks, money" },
+    ],
+    honest: DEMO_NOTE,
+    chapters: [
+      {
+        id: "lists",
+        title: "People and companies",
+        intro: "Two plain lists with search. The work is in what opens when you tap a row.",
+        blocks: [
+          {
+            type: "gallery",
+            frame: "browser",
+            columns: 2,
+            items: [
+              { image: "reviq/app-people", caption: "People, each with their company" },
+              { image: "reviq/app-companies", caption: "Companies" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "record",
+        title: "The record page",
+        intro: "Three columns: who they are, what happened, and what they are connected to.",
+        blocks: [
+          {
+            type: "shot",
+            image: "reviq/app-company",
+            frame: "browser",
+            title: "A company",
+            body: [
+              "On the left, the details and quick actions: note, email, call, task, meeting. In the middle, one timeline where a quote, a payment and an invoice sit beside notes and calls. On the right, its deals, its team and its documents.",
+            ],
+            points: ["A suggested next step on every new record", "Payments appear on the timeline by themselves", "An audit log at the bottom of the page"],
+          },
+          {
+            type: "shot",
+            image: "reviq/app-person",
+            frame: "browser",
+            title: "A person",
+            body: ["The same layout. The company they work at is a link, not typed text, so the two records never drift apart."],
+          },
+        ],
+      },
+      {
+        id: "blueprint",
+        title: "The blueprint",
+        intro: "Every field in the product is defined once, in one place, with a sentence saying why it exists.",
+        blocks: [
+          {
+            type: "shot",
+            image: "reviq/app-blueprint",
+            frame: "browser",
+            title: "The model, readable",
+            body: [
+              "The owner of a workspace can read the whole data model in plain words: what each field is, who can see it, and when it is shown. Forms, lists and permissions are built from this one definition.",
+            ],
+          },
+          {
+            type: "gallery",
+            title: "On a phone",
+            frame: "phone",
+            columns: 3,
+            items: [
+              { image: "reviq/app-people-phone", caption: "People" },
+              { image: "reviq/app-person-phone", caption: "A person" },
+              { image: "reviq/app-company-phone", caption: "A company" },
+            ],
+          },
+        ],
+      },
+    ],
+    stack: REVIQ_STACK,
+  },
+  {
+    slug: "reviq-deals",
+    name: "RevIQ Deals",
+    kind: "SaaS module · pipeline and tasks",
+    tagline: "A board that shows the stage and the money as two different things.",
+    summary:
+      "The pipeline of RevIQ. Each deal card carries two bars: how far the deal has moved, and how much of it has been invoiced and collected. Tasks sit beside it, sorted by what is overdue.",
+    status: "Live behind login · shown from a local demo",
+    parent: REVIQ,
+    cover: "reviq/app-deals",
+    coverFrame: "browser",
+    band: "bg-band-mint",
+    facts: [
+      { value: "6", label: "default stages, from New to Won or Lost; all editable" },
+      { value: "2", label: "rails on every deal: commercial stage and money collected" },
+      { value: "1", label: "contact behind every deal, never free text" },
+      { value: "3", label: "task groups: overdue, today, this week" },
+    ],
+    honest: DEMO_NOTE,
+    chapters: [
+      {
+        id: "board",
+        title: "The board",
+        intro: "Winning a deal and being paid for it are not the same event. The board keeps them apart.",
+        blocks: [
+          {
+            type: "shot",
+            image: "reviq/app-deals",
+            frame: "browser",
+            title: "Deals by stage",
+            body: [
+              "The open total sits under the title. Each card shows the value, the customer, the stage as a purple bar and the money as a second bar under it, plus the next step in words.",
+              "Stages can be renamed, and a workspace can keep more than one board.",
+            ],
+          },
+          {
+            type: "shot",
+            image: "reviq/app-deal",
+            frame: "browser",
+            title: "One deal",
+            body: [
+              "Value and stage on the left. In the middle, the two rails with the figures spelled out: collected, outstanding, invoiced, not invoiced yet. Then next steps, emails and notes.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "tasks",
+        title: "Tasks and the home screen",
+        intro: "What needs doing, in the order it hurts.",
+        blocks: [
+          {
+            type: "gallery",
+            frame: "browser",
+            columns: 2,
+            items: [
+              { image: "reviq/app-tasks", caption: "Tasks: overdue first, then today, then this week" },
+              { image: "reviq/app-home", caption: "Home: what is owed, and what needs you" },
+            ],
+          },
+          {
+            type: "gallery",
+            title: "On a phone",
+            frame: "phone",
+            columns: 3,
+            items: [
+              { image: "reviq/app-deals-phone", caption: "The board" },
+              { image: "reviq/app-tasks-phone", caption: "Tasks" },
+              { image: "reviq/app-home-phone", caption: "Home" },
+            ],
+          },
+        ],
+      },
+    ],
+    stack: REVIQ_STACK,
   },
 ];

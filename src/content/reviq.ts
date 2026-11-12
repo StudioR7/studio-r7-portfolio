@@ -35,7 +35,7 @@ export const reviq: Project = {
     { value: "73", label: "test files in the current version, run in CI" },
   ],
   honest:
-    "RevIQ works behind a login with real business data, so there are no app screenshots here. This page shows the public marketing pages and the brand kit, and describes each module in words. The suite also carries a real-estate layer, which is left out of this portfolio on purpose.",
+    "RevIQ works behind a login with real business data. The app screens of its Money, Contacts and Deals modules are on their own pages under Apps, captured from a local copy with made-up data. This page shows the public marketing pages and the brand kit. The suite also carries a real-estate layer, which is left out of this portfolio on purpose.",
   chapters: [
     {
       id: "idea",

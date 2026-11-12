@@ -986,5 +986,105 @@
   "imomi/logo": {
     "width": 1400,
     "height": 787
+  },
+  "reviq/app-home": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-deals": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-deal": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-people": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-companies": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-person": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-company": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-tasks": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-money": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-money-full": {
+    "width": 1440,
+    "height": 1190
+  },
+  "reviq/app-revenue": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-expenses": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-invoice-new": {
+    "width": 1440,
+    "height": 1314
+  },
+  "reviq/app-blueprint": {
+    "width": 1440,
+    "height": 900
+  },
+  "reviq/app-doc-3": {
+    "width": 1440,
+    "height": 2407
+  },
+  "reviq/app-home-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/app-deals-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/app-people-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/app-person-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/app-money-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/app-tasks-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/app-revenue-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/app-company-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "reviq/paper-invoice": {
+    "width": 1170,
+    "height": 1160
+  },
+  "reviq/paper-quote": {
+    "width": 1170,
+    "height": 1056
   }
 }

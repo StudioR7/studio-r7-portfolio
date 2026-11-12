@@ -34,6 +34,9 @@ Also in the portfolio:
 | Project Brief | Live | `/apps/project-brief/` |
 | Client Portal | Designed and partly built | `/apps/client-portal/` |
 | Queue | Designed, not released | `/apps/queue/` |
+| RevIQ Money (invoicing and books) | Live behind login, shown from a local demo | `/apps/reviq-money/` |
+| RevIQ Contacts | Live behind login, shown from a local demo | `/apps/reviq-contacts/` |
+| RevIQ Deals | Live behind login, shown from a local demo | `/apps/reviq-deals/` |
 
 ![Invoice Maker](public/work/apps/invoice-editor.webp)
 
