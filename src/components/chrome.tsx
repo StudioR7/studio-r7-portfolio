@@ -3,6 +3,7 @@ import { asset, site } from "@/content";
 
 const NAV = [
   { href: "/#work", label: "Work" },
+  { href: "/apps/", label: "Apps" },
   { href: "/design/", label: "Design" },
   { href: "/papers/", label: "Papers" },
   { href: "/toolbox/", label: "Toolbox" },
@@ -23,7 +24,7 @@ export function Header() {
           <ul className="flex items-center gap-0.5 text-[15px] font-semibold sm:gap-2 sm:text-[16px]">
             {NAV.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="rounded-lg px-2 py-2 text-ink hover:bg-surface sm:px-3">
+                <Link href={item.href} className="rounded-lg px-1.5 py-2 text-ink hover:bg-surface sm:px-3">
                   {item.label}
                 </Link>
               </li>

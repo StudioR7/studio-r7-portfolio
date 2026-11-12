@@ -23,6 +23,20 @@ Also in the portfolio:
 - [**Papers**](https://studior7.github.io/studio-r7-portfolio/papers/): 37 research, architecture and design documents, each with a summary
 - [**Toolbox**](https://studior7.github.io/studio-r7-portfolio/toolbox/): the tools along the way, from site builders and Zapier to an AI engineering partner, and the stack used today
 
+## Apps, one page each
+
+| App | Status | Page |
+|---|---|---|
+| Invoice Maker | Live | `/apps/invoice-maker/` |
+| Namecard Maker | Live | `/apps/namecard-maker/` |
+| Chat demos (LINE, WhatsApp, Telegram) | Live demo | `/apps/chat-demos/` |
+| Quote Engine | Live demo | `/apps/quote-engine/` |
+| Project Brief | Live | `/apps/project-brief/` |
+| Client Portal | Designed and partly built | `/apps/client-portal/` |
+| Queue | Designed, not released | `/apps/queue/` |
+
+![Invoice Maker](public/work/apps/invoice-editor.webp)
+
 ## A look inside
 
 ### Dee Wan Nee

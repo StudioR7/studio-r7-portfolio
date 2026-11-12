@@ -1,3 +1,4 @@
+import { apps } from "./apps";
 import { deeWanNee } from "./dee-wan-nee";
 import { paitor } from "./paitor";
 import { reviq } from "./reviq";
@@ -5,6 +6,7 @@ import { studioR7 } from "./studio-r7";
 import sizes from "./image-sizes.json";
 
 export const projects = [studioR7, deeWanNee, paitor, reviq];
+export { apps };
 
 export const site = {
   name: "Studio R7",

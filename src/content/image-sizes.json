@@ -626,5 +626,309 @@
   "paitor/live-home-phone": {
     "width": 780,
     "height": 1688
+  },
+  "apps/invoice-home": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-editor": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-editor-full": {
+    "width": 1440,
+    "height": 2387
+  },
+  "apps/invoice-totals": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-payment": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-layout-modern": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-layout-minimal": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-layout-bold": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-tab-business": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-tab-customers": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-tab-settings": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-docs": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-th-editor": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/invoice-home-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/invoice-editor-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/invoice-totals-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/invoice-th-editor-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/namecard-templates": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/namecard-templates-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/namecard-details": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/namecard-back": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/namecard-mockup": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/namecard-style": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/namecard-download": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/namecard-details-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/namecard-style-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/namecard-download-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/namecard-mockup-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/quote-hero": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/quote-step-1": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/quote-step-2": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/quote-step-3": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/quote-step-4": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/quote-step-5": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/quote-step-6": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/quote-step-1-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/quote-step-6-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/demos-hero": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/demos-step-1": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/demos-step-2": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/demos-step-3": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/demos-step-4": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/demos-step-5": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/demos-step-6": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/demos-step-2-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/demos-step-4-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/queue-hero": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/queue-ai": {
+    "width": 1440,
+    "height": 900
+  },
+  "apps/queue-hero-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "apps/queue-desk-mock": {
+    "width": 1600,
+    "height": 1000
+  },
+  "apps/queue-flow": {
+    "width": 1600,
+    "height": 569
+  },
+  "apps/queue-kpi": {
+    "width": 1600,
+    "height": 267
+  },
+  "studio-r7/pack-slogan-tagline": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-slogan-reply-promise": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-slogan-pay-for-work": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-slogan-thai-english": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-card-website": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-card-line": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-card-whatsapp": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-card-starter-pack": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-template-announcement": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-template-before-after": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-template-price": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-template-tip": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-series-line-1": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-series-line-5": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-series-fact": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-series-tools": {
+    "width": 1080,
+    "height": 1080
+  },
+  "studio-r7/pack-cover-facebook": {
+    "width": 1600,
+    "height": 835
+  },
+  "studio-r7/pack-cover-linkedin": {
+    "width": 1584,
+    "height": 396
+  },
+  "studio-r7/pack-cover-line": {
+    "width": 1080,
+    "height": 878
+  },
+  "studio-r7/pack-cover-youtube-guide": {
+    "width": 1600,
+    "height": 900
+  },
+  "studio-r7/portal-requests": {
+    "width": 1440,
+    "height": 1112
+  },
+  "studio-r7/portal-files": {
+    "width": 1440,
+    "height": 1000
+  },
+  "studio-r7/portal-deliveries": {
+    "width": 1440,
+    "height": 1000
+  },
+  "studio-r7/portal-mock-team": {
+    "width": 1440,
+    "height": 900
   }
 }

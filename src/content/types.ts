@@ -58,6 +58,27 @@ export type Project = {
   chapters: Chapter[];
 };
 
+/** One app or module, shown on its own page. */
+export type App = {
+  slug: string;
+  name: string;
+  kind: string;
+  tagline: string;
+  summary: string;
+  /** Short and exact: "Live", "Live demo", "Designed, not released". */
+  status: string;
+  url?: { label: string; href: string };
+  /** The larger story this app belongs to. */
+  parent: { label: string; href: string };
+  cover: string;
+  coverFrame: Frame;
+  band: string;
+  facts: { value: string; label: string }[];
+  honest: string;
+  chapters: Chapter[];
+  stack: string[];
+};
+
 export type Paper = {
   project: string;
   title: string;

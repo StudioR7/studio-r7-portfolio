@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { Eyebrow } from "@/components/chrome";
 import { Shot } from "@/components/shot";
-import { projects } from "@/content";
+import { apps, projects } from "@/content";
 import { papers } from "@/content/papers";
 
 const DISCIPLINES = [
-  { title: "Apps", body: "Platforms with real databases, security rules and tests: deals, car listings, a business suite.", href: "/work/dee-wan-nee/" },
+  { title: "Apps", body: "Invoicing, a business card maker, chat demos, a quote engine, a client portal: one page each.", href: "/apps/" },
   { title: "Websites", body: "Bilingual, fast, built for phones first and written in plain words.", href: "/work/studio-r7/" },
   { title: "Flows", body: "The step-by-step paths people actually take: a brief, a sale, a redemption, a delivery.", href: "/work/paitor/#flow" },
   { title: "Brands", body: "Logo systems, colour and type, and two full casts of characters.", href: "/design/" },
@@ -119,6 +119,35 @@ export default function Home() {
             </li>
           ))}
         </ol>
+      </section>
+
+      <section className="mx-auto mt-24 max-w-7xl px-4 sm:px-6">
+        <Eyebrow>Apps and modules</Eyebrow>
+        <h2 className="mt-3 max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl">Or go app by app.</h2>
+        <p className="mt-4 max-w-2xl text-lg text-muted">
+          The smaller tools each have a page of their own, shown screen by screen.
+        </p>
+        <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {apps.map((app) => (
+            <li key={app.slug}>
+              <Link href={`/apps/${app.slug}/`} className="group block h-full rounded-xl border border-line p-5 hover:border-primary">
+                <p className="text-xl font-bold">
+                  {app.name}
+                  <span className="ml-1.5 inline-block text-primary-ink transition-transform group-hover:translate-x-1" aria-hidden="true">
+                    →
+                  </span>
+                </p>
+                <p className="mt-1.5 text-[16px] text-muted">{app.tagline}</p>
+                <p className="mt-3 text-[15px] font-semibold text-ink">{app.status}</p>
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/apps/" className="flex h-full items-center rounded-xl bg-night p-5 text-xl font-bold text-white hover:bg-primary-ink">
+              All apps<span className="ml-1.5" aria-hidden="true">→</span>
+            </Link>
+          </li>
+        </ul>
       </section>
 
       <section className="mx-auto mt-24 grid max-w-7xl gap-6 px-4 sm:px-6 lg:grid-cols-3">
