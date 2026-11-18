@@ -1086,5 +1086,17 @@
   "reviq/paper-quote": {
     "width": 1170,
     "height": 1056
+  },
+  "studio-r7/live-personal-brand": {
+    "width": 1440,
+    "height": 900
+  },
+  "paitor/live-cars-phone": {
+    "width": 780,
+    "height": 1688
+  },
+  "paitor/live-dealers": {
+    "width": 1440,
+    "height": 900
   }
 }

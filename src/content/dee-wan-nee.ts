@@ -30,10 +30,10 @@ export const deeWanNee: Project = {
     "Playwright",
   ],
   facts: [
-    { value: "196", label: "commits in the repo" },
-    { value: "69", label: "screens across the public site, admin and LINE apps" },
-    { value: "41", label: "database migrations, with 42 SQL test files" },
-    { value: "3 × 3,117", label: "languages × translated text keys, kept in step" },
+    { value: "222", label: "commits in the repo" },
+    { value: "77", label: "screens across the public site, admin and LINE apps" },
+    { value: "46", label: "database migrations, with 47 SQL test files" },
+    { value: "3 × 3,573", label: "languages × translated text keys, kept in step" },
   ],
   honest:
     "Dee Wan Nee has not opened to the public yet. The diner and staff apps run inside LINE and need a LINE login, so this page shows the public site, the example pages and the brand, and describes the in-LINE flows in words. The example restaurant and chef are made up and labelled so on the live site.",
@@ -131,6 +131,19 @@ export const deeWanNee: Project = {
             "The profile shown is an example with a made-up chef.",
           ],
         },
+        {
+          type: "list",
+          title: "Added in the latest build",
+          intro: "Built and tested in the second half of November, ahead of opening. None of it is public yet.",
+          items: [
+            { title: "\"Who are you?\" in LINE", body: "A new friend picks Foodie, Restaurant or Chef and pro, and gets a short menu made for that role. A restaurant owner finds and adds their place in one to three taps." },
+            { title: "Follow and save", body: "Diners save restaurants and follow chefs, then see their deals and posts in one Following feed. Follows are private: no public counts, no likes." },
+            { title: "Posts on Palate", body: "Chefs post a few words and up to six photos. Early posts are checked by a person first, and anyone can report a post without signing in." },
+            { title: "Event menus", body: "Restaurants set up set menus for events: price per person, allergens, seats per date and a refund rule. They cannot be published until payments are switched on." },
+            { title: "Restaurants refer restaurants", body: "A restaurant shares its link, and when the place it brought in publishes a first deal, both get a month of lower fees, counted and applied automatically." },
+            { title: "Deal results", body: "Owners see, per deal, how many vouchers were claimed, used and left over across 7, 30 and 90 days." },
+          ],
+        },
       ],
     },
     {
@@ -226,7 +239,7 @@ export const deeWanNee: Project = {
           type: "list",
           title: "What keeps it honest",
           items: [
-            { title: "Security rules in the database itself", body: "Access is decided by row-level security in Postgres, not by the app alone. A diner, a staff member, an owner and an admin each see only what is theirs, and 42 SQL test files check it." },
+            { title: "Security rules in the database itself", body: "Access is decided by row-level security in Postgres, not by the app alone. A diner, a staff member, an owner and an admin each see only what is theirs, and 47 SQL test files check it." },
             { title: "Ledgers that only grow", body: "Redemptions and reward points are written to append-only ledgers. A repeated scan cannot be counted twice." },
             { title: "Exact maths for deals", body: "The deal planner works in exact fractions, with a set of known-answer test cases, so a restaurant is never shown a rounded-off profit." },
             { title: "Search engines get every page", body: "A test fails the build if any public page is missing from the sitemap in any of the three languages." },

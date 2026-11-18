@@ -447,7 +447,7 @@ export const apps: App[] = [
             intro: "Shown on a phone, where most visitors meet it.",
             frame: "phone",
             steps: [
-              { image: "studio-r7/intake-1-phone", title: "What would you like to do?", body: "Four plain choices: a single job, the platform, something custom, or technology for equity. Not sure is a valid answer." },
+              { image: "studio-r7/intake-1-phone", title: "What would you like to do?", body: "Three plain choices: a single fixed-price job, a care plan or the platform, or a build such as an industry pack. Not sure is a valid answer." },
               { image: "studio-r7/intake-2-phone", title: "Which job would you like?", body: "Fixed, one-off prices are shown right on the options, so there is no surprise later." },
               { image: "studio-r7/intake-3-phone", title: "What is it for?", body: "One line is enough. The example text shows the level of detail that helps." },
               { image: "studio-r7/intake-4-phone", title: "How should we reach you?", body: "LINE, WhatsApp, Telegram or email. The form only asks for what is needed to reply." },
