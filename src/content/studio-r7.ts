@@ -6,7 +6,7 @@ export const studioR7: Project = {
   kind: "Agency website, free apps and client platform",
   tagline: "You know the problem. We make the technology work.",
   summary:
-    "The studio's own site, built as a product: a bilingual website, a guided project brief, two free business apps, a client delivery portal and the first parts of a typed growth engine.",
+    "The studio's own site, built as a product: a bilingual website with a build-once offer, a guided project brief, two free business apps, a client back end and the first parts of a typed growth engine.",
   status: "Live",
   period: "October to November 2026",
   url: { label: "studior7.com", href: "https://studior7.com/en" },
@@ -29,13 +29,13 @@ export const studioR7: Project = {
     "Lighthouse CI",
   ],
   facts: [
-    { value: "530", label: "commits in the repo" },
-    { value: "82", label: "public pages in the sitemap (41 in English, 41 in Thai)" },
-    { value: "164", label: "test files" },
+    { value: "879", label: "commits in the repo" },
+    { value: "72", label: "public pages in the sitemap (36 in English, 36 in Thai)" },
+    { value: "272", label: "test files" },
     { value: "2", label: "free apps, live" },
   ],
   honest:
-    "Studio R7 publishes no client case studies yet, and the site says so. Everything on this page is the studio's own product. The client portal is designed and partly built, the Thai copy is waiting for a native review, and most of the growth engine is planned, not shipped.",
+    "Studio R7 publishes no client case studies yet, and the site says so. Everything on this page is the studio's own product. The client back end is built but open only to signed-in clients, the Thai copy is waiting for a native review, and most of the growth engine is planned, not shipped.",
   chapters: [
     {
       id: "idea",
@@ -49,8 +49,8 @@ export const studioR7: Project = {
           frame: "browser",
           title: "A home page that leads with the customer's problem",
           body: [
-            "The first screen says what the studio does in one sentence and shows it in one picture: LINE, WhatsApp and Telegram on the left, booked orders and approved replies on the right, Studio R7 in the middle.",
-            "There is one main action, Start a project, and one quiet link for people who want to read first.",
+            "The first screen says what the studio does in one sentence and shows it in one picture: LINE, WhatsApp and Telegram on the left, confirmed bookings and replies waiting for approval on the right, Studio R7 in the middle.",
+            "The promise is about results, not software: more from every lead that already reaches the business. There is one main action, Start a brief, and one quiet link that asks what the visitor is building.",
           ],
           points: ["English and Thai from the first commit", "Phone and desktop are designed separately", "No stock photos of people shaking hands"],
         },
@@ -60,8 +60,18 @@ export const studioR7: Project = {
           frame: "browser",
           title: "Pricing that explains itself",
           body: [
-            "Three ways to work with the studio sit side by side: a single fixed-price job, the monthly platform, or a custom project. A visitor picks hubs and a tier and sees the price change as they go.",
-            "All prices come from one configuration file and one pure function, so the page, the brief and the quote can never disagree.",
+            "Build once, then choose how it keeps running. The build is paid once; a care plan keeps it hosted and updated, or the platform adds automation per user. Each build comes in three tiers, and every price includes VAT.",
+            "Every price comes from one price book that the studio approves in its own admin, so the page, the brief and the quote can never disagree.",
+          ],
+        },
+        {
+          type: "shot",
+          image: "studio-r7/live-personal-brand",
+          frame: "browser",
+          title: "One offer, packaged: Personal Brand",
+          body: [
+            "For founders and consultants who sell on their own name: a brand, a website with its own private admin, the chat channels and a simple sales process, built once.",
+            "Three tiers of the same system, so a client starts small and upgrades without rebuilding. The accounts and the domain stay in the client's name.",
           ],
         },
         {
@@ -95,7 +105,7 @@ export const studioR7: Project = {
             {
               image: "studio-r7/intake-1-phone",
               title: "What would you like to do?",
-              body: "Four plain choices: a single job, the platform, something custom, or technology for equity. Not sure is a valid answer.",
+              body: "Three plain choices: a single fixed-price job, a care plan or the platform, or a build such as an industry pack. Not sure is a valid answer.",
             },
             {
               image: "studio-r7/intake-2-phone",
@@ -269,7 +279,7 @@ export const studioR7: Project = {
         {
           type: "gallery",
           title: "Designs for what comes next",
-          intro: "Mock-ups, not built yet: approvals and the email a client receives.",
+          intro: "The first designs for approvals and the request email. Approvals tied to a version are now built in the client back end; the email is still a design.",
           frame: "browser",
           columns: 2,
           items: [
@@ -292,7 +302,7 @@ export const studioR7: Project = {
           title: "The engine map",
           body: [
             "Every block, what it needs before it can be built, who calls whom at run time, and where each one stands today. The dependency diagrams in the docs are generated from the code, and the build fails if they drift.",
-            "Most blocks are still planned. The map shows that plainly: built, in progress and not started each have their own state.",
+            "Most blocks are still planned. The map shows that plainly: today 2 are built, 1 is in review, 9 are being built and 24 are planned.",
           ],
           points: ["36 blocks, each with its own written dossier", "Diagrams generated from code; the build fails if they drift", "A cost ledger and rate card so every AI call has a price"],
         },

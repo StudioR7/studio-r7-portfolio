@@ -30,13 +30,13 @@ export const paitor: Project = {
     "Playwright",
   ],
   facts: [
-    { value: "204", label: "commits across all branches" },
+    { value: "296", label: "commits across all branches" },
     { value: "17", label: "brand characters, drawn as layered vector art" },
-    { value: "36", label: "dealer back-office screens designed as working HTML" },
-    { value: "26", label: "research papers in the product library" },
+    { value: "43", label: "dealer back-office screens and states designed as working HTML" },
+    { value: "27", label: "research papers in the product library" },
   ],
   honest:
-    "The design-kit screens on this page are marked \"concept art\" because they are the approved design, drawn before the build. PaiTor Pro is built behind a switch on its own branches and is not released. Dealer screens use sample data and sample prices, labelled on every screen. The Chinese version is machine-drafted and waiting for a native review.",
+    "The design-kit screens on this page are marked \"concept art\" because they are the approved design, drawn before the build. The first stages of PaiTor Pro (business accounts, stock, the car editor and import) are now in the main code behind a switch, and are not released. Banner ads are built end to end but take no real payments yet. Dealer screens use sample data and sample prices, labelled on every screen. The Chinese version is machine-drafted and waiting for a native review.",
   chapters: [
     {
       id: "idea",
@@ -53,7 +53,7 @@ export const paitor: Project = {
             "The live home page shows the result before it explains the tool: a real-looking listing on a phone, with the price on a plate, the declarations in green, and the share images beside it.",
             "No sign-up to start. The draft stays on the seller's phone until they choose to publish.",
           ],
-          points: ["Thai first, with English and Chinese", "Free for owners, car yards and dealers", "The price is the seller's; the tool never suggests one"],
+          points: ["English, Thai and Chinese; the visitor's choice is remembered", "Free for private sellers", "The price is the seller's; the tool never suggests one"],
         },
         {
           type: "shot",
@@ -62,6 +62,16 @@ export const paitor: Project = {
           title: "Finding a car",
           body: [
             "Buyers filter by what matters to them, save cars, compare them, and come back to the same place in the list. Badges only say what was actually checked: \"Owner declared\", never a vague \"verified\".",
+          ],
+        },
+        {
+          type: "shot",
+          image: "paitor/live-cars-phone",
+          frame: "phone",
+          title: "Cars near you, without tracking you",
+          body: [
+            "A \"Where?\" box takes a postcode or district, or one tap on Near me, and lists the nearest cars first within 5, 10, 25 or 50 km. The location is used for that one search and never saved or logged, and the page says so.",
+            "On a phone, a tab bar keeps the four things people come for one thumb away: browse, saved cars, sell and account.",
           ],
         },
       ],
@@ -107,6 +117,16 @@ export const paitor: Project = {
       blocks: [
         {
           type: "shot",
+          image: "paitor/live-dealers",
+          frame: "browser",
+          title: "A front door for dealers",
+          body: [
+            "A live page for car yards, dealerships and car brands: what PaiTor does for them, founding terms for early listers, and a short form to start. Every car can be listed free until 1 April 2027.",
+            "Stock comes in two ways: the dealer imports their own sheet in PaiTor Pro, or sends the list and the team loads it with them.",
+          ],
+        },
+        {
+          type: "shot",
           image: "paitor/pro-today",
           frame: "browser",
           title: "Today: what needs you",
@@ -141,7 +161,7 @@ export const paitor: Project = {
         {
           type: "gallery",
           title: "Paid placement, clearly labelled",
-          intro: "Listings stay free. Dealers can pay to boost cars or place a banner, and every paid spot is marked as an ad with a \"why am I seeing this\" explanation.",
+          intro: "Dealers can pay to boost cars or place a banner, and every paid spot is marked as an ad with a \"why am I seeing this\" explanation. Banners are sold by postcode, province, region or the whole country, and a sold slot stays sold. The full purchase is built, from picking a slot to payment, tax invoice and review; it is not taking real payments yet.",
           frame: "browser",
           columns: 2,
           items: [
@@ -247,7 +267,7 @@ export const paitor: Project = {
           type: "schema",
           title: "The data model, simplified",
           intro: "The car catalogue on top, a listing in the middle, and what buyers do with it below. An arrow reads \"belongs to\".",
-          note: "Simplified from the Postgres schema. The real database has about 70 tables; fields and access rules are left out here.",
+          note: "Simplified from the Postgres schema. The real database has about 100 tables; fields and access rules are left out here.",
           columns: 3,
           entities: [
             { id: "make", name: "Make", note: "Toyota, Honda…", col: 0, row: 0 },
@@ -275,7 +295,7 @@ export const paitor: Project = {
           type: "list",
           title: "What is tested, and how",
           items: [
-            { title: "Database rules tested as SQL", body: "22 SQL test files cover who can read and write what, search, alerts, offers and chat, run against a real Postgres engine in memory." },
+            { title: "Database rules tested as SQL", body: "35 SQL test files cover who can read and write what, search, alerts, offers and chat, run against a real Postgres engine in memory." },
             { title: "Chat under stress", body: "Buyer and seller chat has chaos, soak and load test scripts, plus web push notifications." },
             { title: "Search alerts and price history", body: "A saved search sends a daily alert, and every price change is kept." },
             { title: "A screenshot audit", body: "One script captures every page at desktop and phone width in three languages, so a design review looks at the real thing." },
