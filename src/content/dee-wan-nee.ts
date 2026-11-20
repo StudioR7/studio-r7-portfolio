@@ -8,7 +8,7 @@ export const deeWanNee: Project = {
   tagline: "Great food. Last-minute deals. Today.",
   summary:
     "A Bangkok platform where restaurants fill quiet tables with same-day deals and diners claim them in LINE. Six characters, three languages, and a redemption flow that never asks staff to type a bill.",
-  status: "Coming soon to Bangkok",
+  status: "Live in Bangkok",
   period: "October to November 2026",
   url: { label: "deewannee.com", href: "https://www.deewannee.com/en" },
   cover: "dee-wan-nee/live-home",
@@ -36,7 +36,7 @@ export const deeWanNee: Project = {
     { value: "3 × 3,573", label: "languages × translated text keys, kept in step" },
   ],
   honest:
-    "Dee Wan Nee has not opened to the public yet. The diner and staff apps run inside LINE and need a LINE login, so this page shows the public site, the example pages and the brand, and describes the in-LINE flows in words. The example restaurant and chef are made up and labelled so on the live site.",
+    "Dee Wan Nee is live in Bangkok and now onboarding its first restaurants. The diner and staff apps run inside LINE and need a LINE login, so this page shows the public site, the example pages and the brand, and describes the in-LINE flows in words. The example restaurant and chef are made up and labelled so on the live site.",
   chapters: [
     {
       id: "idea",
@@ -117,7 +117,7 @@ export const deeWanNee: Project = {
           frame: "browser",
           title: "Bringing restaurants on board",
           body: [
-            "Before opening, invited partners get a preview page: what is asked of them, and six steps in order. An owner adds their place from LINE with a map search, and it goes live once it has a name, hours and a cover photo.",
+            "Invited partners get a preview page: what is asked of them, and six steps in order. An owner adds their place from LINE with a map search, and it goes live once it has a name, hours and a cover photo.",
             "Ownership is checked properly. A business paper and an ID are read by Claude, then a person reviews the claim before the restaurant is marked as verified.",
           ],
         },
@@ -134,7 +134,7 @@ export const deeWanNee: Project = {
         {
           type: "list",
           title: "Added in the latest build",
-          intro: "Built and tested in the second half of November, ahead of opening. None of it is public yet.",
+          intro: "Built and tested in the second half of November.",
           items: [
             { title: "\"Who are you?\" in LINE", body: "A new friend picks Foodie, Restaurant or Chef and pro, and gets a short menu made for that role. A restaurant owner finds and adds their place in one to three taps." },
             { title: "Follow and save", body: "Diners save restaurants and follow chefs, then see their deals and posts in one Following feed. Follows are private: no public counts, no likes." },
